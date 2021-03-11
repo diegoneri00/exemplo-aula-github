@@ -1,0 +1,50 @@
+git clone https://github.com/diegoneri00/exemplo-aula-github.git
+cls
+dir
+cd exemplo-aula-github
+cls
+git config user.name "Diego Neri"
+git config user.email "diegoneri@msn.com"
+git config user.email
+git config user.name "Diego Neri"
+git config user.name
+dir
+cls
+echo "#Exemplo Aula Github"
+echo "#Exemplo Aula Github" > README.md
+dir
+cls
+git status
+git add README.md
+git status
+echo "outro arquivo" > outro.txt
+cls
+git status
+git commit -m "Inicializando o reposit¢rio"
+git status
+cls
+git status
+git branch ?
+git branch /?
+git branch --help
+git status
+cls
+git branch --unset-upstream
+git status
+git branch --set-upstream-to https://github.com/diegoneri00/exemplo-aula-github master
+git remote -vv
+cls
+git status
+git push
+git push --set-upstream origin master
+git config user.name
+git config user.email
+cls
+git config --global credential.helper manager-core
+git status
+git push
+git push --set-upstream origin master
+cls
+doskey -history
+doskey history
+doskey /history > comandosAula.txt
